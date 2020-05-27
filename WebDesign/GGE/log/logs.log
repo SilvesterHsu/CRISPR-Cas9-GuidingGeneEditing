@@ -1,0 +1,21 @@
+2020-05-23 22:48:33,519 - ERROR - app.py - query_results_table - 61 - (pymysql.err.OperationalError) (1045, "Access denied for user 'root'@'localhost' (using password: YES)")
+(Background on this error at: http://sqlalche.me/e/e3q8)
+2020-05-23 23:21:42,197 - ERROR - app.py - query_results_table - 85 - [Errno 2] No such file or directory: 'D:\\MSI-PC\\PycharmProjects\\GGE\\csv_file/csv_file/chr13_39276927-39277227.csv'
+2020-05-23 23:22:06,625 - ERROR - app.py - query_results_table - 85 - [Errno 2] No such file or directory: 'D:\\MSI-PC\\PycharmProjects\\GGE\\csv_file/csv_file/chr13_39276927-39277227.csv'
+2020-05-23 23:23:13,770 - ERROR - app.py - query_results_table - 82 - [Errno 2] No such file or directory: 'D:\\MSI-PC\\PycharmProjects\\GGE\\csv_file/csv_file/chr13_39276927-39277227.csv'
+2020-05-23 23:25:07,828 - ERROR - app.py - query_results_table - 82 - [Errno 2] No such file or directory: 'D:\\MSI-PC\\PycharmProjects\\GGE\\csv_file/csv_file/chr13_39276927-39277227.csv'
+2020-05-23 23:25:13,956 - ERROR - app.py - query_results_table - 82 - [Errno 2] No such file or directory: 'D:\\MSI-PC\\PycharmProjects\\GGE\\csv_file/csv_file/chr13_39276927-39277227.csv'
+2020-05-23 23:26:27,010 - ERROR - app.py - query_results_table - 83 - [Errno 2] No such file or directory: 'D:\\MSI-PC\\PycharmProjects\\GGE\\csv_file/csv_file/chr13_39276927-39277227.csv'
+2020-05-23 23:27:20,733 - ERROR - app.py - query_results_table - 83 - [Errno 2] No such file or directory: 'D:\\MSI-PC\\PycharmProjects\\GGE\\csv_file/csv_file/chr13_39276927-39277227.csv'
+2020-05-23 23:28:36,169 - ERROR - app.py - query_results_table - 83 - [Errno 2] No such file or directory: 'D:\\MSI-PC\\PycharmProjects\\GGE\\csv_file/csv_file/chr13_39276927-39277227.csv'
+2020-05-23 23:33:37,438 - ERROR - app.py - query_results_table - 82 - [Errno 2] No such file or directory: 'D:\\MSI-PC\\PycharmProjects\\GGE\\csv_file/csv_file/chr13_39276927-39277227.csv'
+2020-05-23 23:33:40,226 - ERROR - app.py - query_results_table - 82 - [Errno 2] No such file or directory: 'D:\\MSI-PC\\PycharmProjects\\GGE\\csv_file/csv_file/chr13_39276927-39277227.csv'
+2020-05-23 23:34:28,284 - ERROR - app.py - query_results_table - 82 - [Errno 2] No such file or directory: 'D:\\MSI-PC\\PycharmProjects\\GGE\\csv_file/csv_file/chr13_39276927-39277227.csv'
+2020-05-23 23:34:41,735 - ERROR - app.py - query_results_table - 82 - [Errno 2] No such file or directory: 'D:\\MSI-PC\\PycharmProjects\\GGE\\csv_file/csv_file/chr13_39276927-39277227.csv'
+2020-05-23 23:34:45,848 - ERROR - app.py - query_results_table - 82 - [Errno 2] No such file or directory: 'D:\\MSI-PC\\PycharmProjects\\GGE\\csv_file/csv_file/chr13_39276927-39277227.csv'
+2020-05-23 23:34:50,037 - ERROR - app.py - query_results_table - 82 - [Errno 2] No such file or directory: 'D:\\MSI-PC\\PycharmProjects\\GGE\\csv_file/csv_file/chr13_39276927-39277227.csv'
+2020-05-24 18:38:19,132 - ERROR - app.py - query_picture_contents - 148 - invalid literal for int() with base 10: '39277227.csv'
+2020-05-24 19:21:33,717 - INFO - app.py - query_results_table - 64 - invalid request
+2020-05-24 19:21:33,717 - ERROR - app.py - query_results_table - 71 - 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2020-05-24 19:21:33,839 - INFO - app.py - query_picture_contents - 105 - invalid request
+2020-05-24 19:21:33,839 - ERROR - app.py - query_picture_contents - 158 - 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
