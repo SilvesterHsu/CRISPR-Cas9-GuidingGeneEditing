@@ -4,20 +4,22 @@ The entire project is built on a deep learning framework. To facilitate explorat
 ### Docker Environment
 Our development environment also provides Docker images [docker-pytorch](https://hub.docker.com/r/silvesterhsu/docker-pytorch). 
 
-> If you already have a pytorch development environment, you can skip environment section.
+* If you already have a pytorch development environment, you can skip environment section.
 
 [Docker](https://www.docker.com/) is a virtual environment that can easily create, delete, download, and upload any development environment. Therefore, you can also use Docker to pull the development environment of this project without installing any basic software support. 
 
 **Step 1: Install Docker** 
+
 Run the code in a terminal.
 ```shell
 curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh
 ```
-If you want more [detail](https://docs.docker.com/engine/install/ubuntu/).
+For more [detail](https://docs.docker.com/engine/install/ubuntu/) about installing docker.
 
 
 **Step 2: Add GPU Support (optional)**
+
 At the same time, this [image](https://hub.docker.com/r/silvesterhsu/docker-pytorch) supports GPU acceleration. 
 ```shell
 # Add the package repositories
@@ -28,10 +30,12 @@ curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.li
 sudo apt-get update && sudo apt-get install -y nvidia-container-toolkit
 sudo systemctl restart docker
 ```
-For more [detail](https://github.com/NVIDIA/nvidia-docker).
 > Note that due to Docker virtualization, GPU acceleration is only available under Linux systems.
 
+For more [detail](https://github.com/NVIDIA/nvidia-docker).
+
 **Step 3: Pull Image**
+
 For CPU user:
 ```shell
 docker run --restart=always --name pytorch -ti --ipc=host -p "$PORT":8888 -v "$PWD":/workspace silvesterhsu/docker-pytorch
@@ -50,3 +54,4 @@ docker run --gpus all --restart=always --name pytorch -ti --ipc=host -p "$PORT":
 
 ## 2. Usage
 Just open the jupyter file and run it directly.
+![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ggpuavo8f6j30op0ae76w.jpg)
